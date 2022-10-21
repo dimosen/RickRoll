@@ -7,7 +7,9 @@ HMODULE g_hModule = NULL;
 
 void mainThread()
 {
+	ShellExecute(NULL, "open", "https://www.youtube.com/watch?v=JY3Ue97_uNY", NULL, NULL, SW_SHOW);
 	ShellExecute(NULL, "open", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", NULL, NULL, SW_SHOW);
+	
 
 	ExitThread(0);
 }
